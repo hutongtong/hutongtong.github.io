@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="苹果," />
+  <meta name="keywords" content="OC," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta name="keywords" content="苹果">
+<meta name="description" content="通用处理警告方法123456#pragma clang diagnostic push#pragma clang diagnostic ignored &quot;-Wdeprecated-declarations&quot;         //deprecated code        #pragma clang diagnostic pop iOS 13[[UIApplication sharedApplic">
+<meta name="keywords" content="OC">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World1">
+<meta property="og:title" content="iOS 被废弃的API">
 <meta property="og:url" content="http://yoursite.com/2018/05/11/hello-world1/index.html">
-<meta property="og:site_name" content="胡的主页">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:site_name" content="Hu&#39;s Blogs">
+<meta property="og:description" content="通用处理警告方法123456#pragma clang diagnostic push#pragma clang diagnostic ignored &quot;-Wdeprecated-declarations&quot;         //deprecated code        #pragma clang diagnostic pop iOS 13[[UIApplication sharedApplic">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-22T10:50:36.768Z">
+<meta property="og:updated_time" content="2020-03-14T06:19:52.014Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World1">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="iOS 被废弃的API">
+<meta name="twitter:description" content="通用处理警告方法123456#pragma clang diagnostic push#pragma clang diagnostic ignored &quot;-Wdeprecated-declarations&quot;         //deprecated code        #pragma clang diagnostic pop iOS 13[[UIApplication sharedApplic">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <title>Hello World1 | 胡的主页</title>
+  <title>iOS 被废弃的API | Hu's Blogs</title>
   
 
 
@@ -156,7 +156,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">胡的主页</span>
+        <span class="site-title">Hu's Blogs</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -272,7 +272,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="胡的主页">
+      <meta itemprop="name" content="Hu's Blogs">
     </span>
 
     
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World1</h1>
+          <h1 class="post-title" itemprop="name headline">iOS 被废弃的API</h1>
         
 
         <div class="post-meta">
@@ -315,8 +315,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Mac/" itemprop="url" rel="index">
-                    <span itemprop="name">Mac</span>
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
                   </a>
                 </span>
 
@@ -352,16 +352,17 @@
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+        <h2 id="通用处理警告方法"><a href="#通用处理警告方法" class="headerlink" title="通用处理警告方法"></a>通用处理警告方法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#pragma clang diagnostic push</span></span><br><span class="line"><span class="comment">#pragma clang diagnostic ignored "-Wdeprecated-declarations"</span></span><br><span class="line">        </span><br><span class="line"> //deprecated code</span><br><span class="line">        </span><br><span class="line"><span class="comment">#pragma clang diagnostic pop</span></span><br></pre></td></tr></table></figure>
+<h2 id="iOS-13"><a href="#iOS-13" class="headerlink" title="iOS 13"></a>iOS 13</h2><h3 id="UIApplication-sharedApplication-keywindow"><a href="#UIApplication-sharedApplication-keywindow" class="headerlink" title="[[UIApplication sharedApplication] keywindow]"></a>[[UIApplication sharedApplication] keywindow]</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  [[[UIApplication sharedApplication] delegate] window];</span><br></pre></td></tr></table></figure>
+<p>尝试过[UIApplication sharedApplication].windows[0]，但是会失效</p>
+<h3 id="statusBarOrientation-amp-amp-interfaceOrientation"><a href="#statusBarOrientation-amp-amp-interfaceOrientation" class="headerlink" title="statusBarOrientation &amp;&amp; interfaceOrientation"></a>statusBarOrientation &amp;&amp; interfaceOrientation</h3><p>获取状态栏方向方法</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ [[UIApplication sharedApplication].windows firstObject].windowScene.interfaceOrientation;</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="iOS-11"><a href="#iOS-11" class="headerlink" title="iOS 11"></a>iOS 11</h2><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+<h2 id="iOS-10"><a href="#iOS-10" class="headerlink" title="iOS 10"></a>iOS 10</h2><h3 id="openURL"><a href="#openURL" class="headerlink" title="openURL:"></a>openURL:</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  openURL:options:completionHandler:</span><br></pre></td></tr></table></figure>
+<h2 id="iOS-9"><a href="#iOS-9" class="headerlink" title="iOS 9"></a>iOS 9</h2><h3 id="stringByAddingPercentEscapesUsingEncoding-amp-amp-stringByReplacingPercentEscapesUsingEncoding"><a href="#stringByAddingPercentEscapesUsingEncoding-amp-amp-stringByReplacingPercentEscapesUsingEncoding" class="headerlink" title="stringByAddingPercentEscapesUsingEncoding: &amp;&amp; stringByReplacingPercentEscapesUsingEncoding:"></a>stringByAddingPercentEscapesUsingEncoding: &amp;&amp; stringByReplacingPercentEscapesUsingEncoding:</h3><p>stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$  stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -378,7 +379,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/苹果/" rel="tag"># 苹果</a>
+            <a href="/tags/OC/" rel="tag"># OC</a>
           
         </div>
       
@@ -391,8 +392,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/05/11/hello-world2/" rel="next" title="Hello World3">
-                <i class="fa fa-chevron-left"></i> Hello World3
+              <a href="/2018/05/11/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -400,10 +401,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/11/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -474,7 +471,7 @@
                 alt="TongTong Hu" />
             
               <p class="site-author-name" itemprop="name">TongTong Hu</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">记录一下自己遇到的坑~</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -539,7 +536,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#通用处理警告方法"><span class="nav-number">1.</span> <span class="nav-text">通用处理警告方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-13"><span class="nav-number">2.</span> <span class="nav-text">iOS 13</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#UIApplication-sharedApplication-keywindow"><span class="nav-number">2.1.</span> <span class="nav-text">[[UIApplication sharedApplication] keywindow]</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#statusBarOrientation-amp-amp-interfaceOrientation"><span class="nav-number">2.2.</span> <span class="nav-text">statusBarOrientation &amp;&amp; interfaceOrientation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-11"><span class="nav-number">3.</span> <span class="nav-text">iOS 11</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">3.1.</span> <span class="nav-text">Generate static files</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-10"><span class="nav-number">4.</span> <span class="nav-text">iOS 10</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#openURL"><span class="nav-number">4.1.</span> <span class="nav-text">openURL:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-9"><span class="nav-number">5.</span> <span class="nav-text">iOS 9</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#stringByAddingPercentEscapesUsingEncoding-amp-amp-stringByReplacingPercentEscapesUsingEncoding"><span class="nav-number">5.1.</span> <span class="nav-text">stringByAddingPercentEscapesUsingEncoding: &amp;&amp; stringByReplacingPercentEscapesUsingEncoding:</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -559,7 +556,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
